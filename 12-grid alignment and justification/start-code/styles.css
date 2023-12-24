@@ -4,4 +4,16 @@
 
 .container {
   display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(3, 150px);
+  border: 10px solid #000;
+  /*justify-items: center;
+  align-items: center;*/
+  /*justify-content: space-evenly;*/
+  /*align-content: start;*/
+}
+
+.item-4{
+  justify-self: stretch;
+  align-self: start;
 }
